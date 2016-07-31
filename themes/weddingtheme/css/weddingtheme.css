@@ -4104,7 +4104,8 @@ body {
     z-index: 1;
     background: #2b1d2c; }
     .title-page .field-name-field-body-text h1 {
-      padding: 20px 0; }
+      padding: 20px 0;
+      font-size: 56px; }
     .title-page .field-name-field-body-text h2 {
       font-size: 21px;
       letter-spacing: 2px;
@@ -4114,6 +4115,21 @@ body {
         width: 200px;
         height: 20px;
         background: url("../images/graphic-left.png") no-repeat; }
+
+.ampersand {
+  height: 65px;
+  width: 45px;
+  display: inline-block;
+  position: relative; }
+  .ampersand:before {
+    content: '';
+    background: url("../images/ampersand.svg") no-repeat;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    left: -30px;
+    top: -15px;
+    opacity: 0.25; }
 
 .paragraph--type--image-content .field-type-image, .paragraph--type--image-content .field-name-field-body-text {
   position: relative;
@@ -4166,10 +4182,11 @@ body {
   background: #c14117 !important; }
 
 .leaves-1 {
-  background: url("../images/leaves-full.svg");
+  background: url("../images/leaves-full.svg") no-repeat;
   position: absolute;
-  height: 2500px;
-  width: 600px;
+  height: 1800px;
+  width: 800px;
   background-size: 100%;
   z-index: 0;
-  top: 0; }
+  top: 0;
+  left: 0; }
