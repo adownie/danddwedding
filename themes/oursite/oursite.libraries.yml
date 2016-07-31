@@ -1,0 +1,12 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/oursite.css: {}
+      css/jquery.fullPage.css: {}
+  js:
+    js/oursite.js: {}
+    js/jquery.fullPage.min.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery

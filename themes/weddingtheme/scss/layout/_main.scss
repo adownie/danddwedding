@@ -1,0 +1,111 @@
+// Non-modular or client styles for the .l-content region.
+
+.title-page {
+	background: $plum;
+	.field-name-field-body-text {
+		width: 45%;
+		margin: 0 auto;
+		border: 3px solid $orange;
+		border-radius: 3px;
+		text-align: center;
+		color: $orange;
+		text-transform: uppercase;
+		padding: 10px 20px;
+		position: relative;
+		z-index: 1;
+		background: $plum;
+		h1 {
+			padding: 20px 0;
+		}
+		h2 {
+			font-size: 21px;
+			letter-spacing: 2px;
+			font-family: $serif-font;
+			&:before, &:after {
+				content: '';
+				width: 200px;
+				height: 20px;
+				background: url('../images/graphic-left.png') no-repeat;
+
+			}
+		}
+	}
+}
+
+.paragraph--type--image-content {
+	.field-wrapper {
+
+	}
+	.field-type-image, .field-name-field-body-text {
+		position: relative;
+		z-index: 1;
+		border-radius: 3px;
+	}
+	.field-name-field-body-text {
+		padding: 20px;
+	}
+}
+
+.bg-color {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	left: 0;
+	right: 0;
+}
+
+.how-we-met {
+	background: transparent;
+	color: $green-lt;
+	.bg-color {
+		background: $green;
+	}
+	.field-type-image, .field-name-field-body-text {
+		background: $green;	
+		border: 3px solid $green-lt;
+	}
+}
+
+.our-adventures {
+	background: transparent;
+	.bg-color {
+		background: $orange-dk;
+	}	
+	.field-type-image {
+		border: 3px solid $orange-lt;
+		border-radius: 3px;
+	}
+}
+
+.proposal {
+	background: transparent;
+	text-align: center;
+	.bg-color {
+		background: $red-dk;
+	}		
+	.field-type-image {
+		border: 3px solid $red;
+		border-radius: 3px;		
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+
+#fp-nav ul li a span, 
+.fp-slidesNav ul li a span {
+	background: $orange !important;
+}
+
+.leaves-1 {
+	background: url('../images/leaves-full.svg');
+	position: absolute;
+	height: 2500px;
+	width: 600px;
+	background-size: 100%;
+	z-index: 0;
+	top: 0;
+}

@@ -1,0 +1,9 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/weddingtheme.css: {}
+      css/jquery.fullPage.css: {}
+  js:
+    js/weddingtheme.js: {}
+    js/jquery.fullPage.min.js: {}
