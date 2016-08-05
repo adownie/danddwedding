@@ -4089,6 +4089,14 @@ h2 {
 body {
   font-family: "monsterrat", sans-serif; }
 
+body {
+  background: #2b1d2c;
+  color: #c14117; }
+
+.off-canvas-content,
+.off-canvas-content {
+  background: transparent; }
+
 .title-page {
   background: #2b1d2c; }
   .title-page .field-name-field-body-text {
@@ -4190,7 +4198,7 @@ body {
   z-index: 0;
   top: 0;
   left: 0; }
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-width: 1200px) {
     .leaves-1 {
-      width: 1600px;
-      height: 3200px; } }
+      width: 1000px;
+      height: 2000px; } }
