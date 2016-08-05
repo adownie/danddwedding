@@ -4093,6 +4093,10 @@ body {
   background: #2b1d2c;
   color: #c14117; }
 
+@media screen and (min-width: 90em) {
+  .row {
+    max-width: 1400px; } }
+
 .off-canvas-content,
 .off-canvas-content {
   background: transparent; }

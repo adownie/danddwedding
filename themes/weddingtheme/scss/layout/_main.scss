@@ -5,6 +5,12 @@ body {
 	color: $orange;
 }
 
+.row {
+	@media #{$xxlarge-up} { 
+		max-width: 1400px;
+	}
+}
+
 .off-canvas-content, 
 .off-canvas-content {
 	background: transparent;
