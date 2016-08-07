@@ -147,3 +147,13 @@ body {
 		height: 2000px;
 	}
 }
+
+#fp-nav.right {
+	ul {
+		li {
+			.fp-tooltip {
+				color: $orange;
+			}
+		}
+	}
+}

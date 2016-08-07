@@ -15,6 +15,7 @@
         paddingBottom: '40px',
         responsiveWidth: 1025,
         navigation: true,
+        navigationTooltips: ['Welcome!', 'How We Met', 'Our Adventures', 'The Proposal', 'Our Registries'],
         navigationPosition: 'right'
      	});
     }
