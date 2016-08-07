@@ -23,7 +23,13 @@ h2, h3 {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 22px;
+	@media #{$medium-up} {
+		font-size: 24px;
+	}
+	@media #{$large-up} {
+		font-size: 30px;
+	}
 }
 
 // Anchors

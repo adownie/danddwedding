@@ -18,7 +18,7 @@ body {
 .title-page {
 	background: $plum;
 	.field-name-field-body-text {
-		width: 45%;
+		// width: 45%;
 		margin: 0 auto;
 		border: 3px solid $orange;
 		border-radius: 3px;
@@ -31,7 +31,13 @@ body {
 		background: $plum;
 		h1 {
 			padding: 20px 0;
-			font-size: 56px;
+			font-size: 32px;
+			@media #{$medium-up} {
+				font-size: 42px;
+			}
+			@media #{$large-up} {
+				font-size: 56px;	
+			}
 		}
 		h2 {
 			font-size: 21px;
@@ -146,6 +152,10 @@ body {
 		width: 1000px;
 		height: 2000px;
 	}
+	&.page-layout {
+		z-index: -1;
+		height: 100%;
+	}
 }
 
 #fp-nav.right {
@@ -155,5 +165,24 @@ body {
 				color: $orange;
 			}
 		}
+	}
+}
+
+
+.rsvp {
+	min-height: 700px;
+}
+.content-rsvp {
+	background: $plum;
+	border: 3px solid $orange;
+	border-radius: 3px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding: 30px 0;
+	h2 {
+		margin: 0;
+		@media #{$medium-up} {
+			font-size: 30px;	
+		}		
 	}
 }
