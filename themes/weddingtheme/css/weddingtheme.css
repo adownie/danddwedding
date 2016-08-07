@@ -4084,13 +4084,21 @@ h2, h3 {
   text-transform: uppercase; }
 
 h2 {
-  font-size: 22px; }
+  font-size: 22px;
+  text-align: center; }
   @media screen and (min-width: 40em) {
     h2 {
       font-size: 24px; } }
   @media screen and (min-width: 64em) {
     h2 {
       font-size: 30px; } }
+  @media screen and (min-width: 90em) {
+    h2 {
+      font-size: 44px; } }
+
+@media screen and (min-width: 90em) {
+  p {
+    font-size: 18px; } }
 
 body {
   font-family: "monsterrat", sans-serif; }
@@ -4215,8 +4223,8 @@ body {
   left: 0; }
   @media screen and (min-width: 90em) {
     .leaves-1 {
-      width: 1000px;
-      height: 2000px;
+      width: 2000px;
+      height: 3000px;
       background: url("../images/leaves-full-retina.svg") no-repeat; } }
   .leaves-1.page-layout {
     z-index: -1;

@@ -24,11 +24,21 @@ h2, h3 {
 
 h2 {
 	font-size: 22px;
+	text-align: center;
 	@media #{$medium-up} {
 		font-size: 24px;
 	}
 	@media #{$large-up} {
 		font-size: 30px;
+	}
+	@media #{$xxlarge-up} {
+		font-size: 44px;
+	}
+}
+
+p {
+	@media #{$xxlarge-up} {
+		font-size: 18px;
 	}
 }
 
