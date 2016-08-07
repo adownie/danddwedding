@@ -47,8 +47,9 @@ view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 %}
 
 <div{{ attributes.addClass(classes) }}>
-	<div class="columns medium-10 medium-offset-1">		
+	<div class="columns medium-10 medium-offset-1 image-wrapper">		
 			{{ content.field_full_image }}		
+			<div class="image-leaves"></div>
   </div>
 
 	<div class="bg-color"></div>

@@ -4222,6 +4222,21 @@ body {
     z-index: -1;
     height: 100%; }
 
+.image-wrapper {
+  position: relative; }
+  .image-wrapper .field {
+    position: relative;
+    z-index: 1; }
+
+.image-leaves {
+  width: 120%;
+  height: 150%;
+  position: absolute;
+  top: -20%;
+  left: -10%;
+  z-index: 0;
+  background: url("../images/leaves-frame.svg") no-repeat; }
+
 #fp-nav.right ul li .fp-tooltip {
   color: #c14117; }
 
