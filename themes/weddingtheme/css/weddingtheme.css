@@ -4106,6 +4106,10 @@ body {
 body {
   background: #2b1d2c;
   color: #c14117; }
+  body a {
+    transition: all .3s ease-in-out; }
+    body a:hover {
+      opacity: 0.8; }
 
 @media screen and (min-width: 90em) {
   .row {
@@ -4185,12 +4189,16 @@ body {
   left: 0;
   right: 0; }
 
-.how-we-met {
+.how-we-met,
+.wedding-information {
   background: transparent;
   color: #8e953b; }
-  .how-we-met .bg-color {
+  .how-we-met .bg-color,
+  .wedding-information .bg-color {
     background: #282a19; }
-  .how-we-met .field-type-image, .how-we-met .field-name-field-body-text {
+  .how-we-met .field-type-image, .how-we-met .field-name-field-body-text,
+  .wedding-information .field-type-image,
+  .wedding-information .field-name-field-body-text {
     background: #282a19;
     border: 3px solid #8e953b; }
 
@@ -4293,3 +4301,50 @@ body {
   padding: 40px; }
   .paragraph--type--general-content .field-wrapper h2 {
     margin-bottom: 40px; }
+
+.field-type-link {
+  position: relative;
+  z-index: 1;
+  margin: 5px 0; }
+  .field-type-link a {
+    display: block;
+    background: rgba(193, 65, 23, 0.8);
+    text-align: center;
+    padding: 10px;
+    color: #2b1d2c;
+    font-size: 28px;
+    font-weight: 600;
+    border-radius: 3px; }
+
+.rsvp-button {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  z-index: 2;
+  font-weight: bold; }
+  .rsvp-button a {
+    color: #2b1d2c;
+    background: rgba(193, 65, 23, 0.8);
+    padding: 9px 20px 5px;
+    display: inline-block;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px; }
+
+.button {
+  color: #282a19;
+  font-weight: bold;
+  background: rgba(142, 149, 59, 0.8);
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 18px;
+  transition: all .3s ease-in-out; }
+  .button:hover {
+    background: rgba(142, 149, 59, 0.8);
+    color: #282a19; }
+
+.wedding-information {
+  background: #282a19; }
+  .wedding-information .field-type-image, .wedding-information .field-name-field-body-text {
+    background: #282a19;
+    border: 3px solid #8e953b; }

@@ -3,6 +3,12 @@
 body {
 	background: $plum;
 	color: $orange;
+	a {
+		transition: all .3s ease-in-out;
+		&:hover {
+			opacity: 0.8;
+		}
+	}
 }
 
 .row {
@@ -100,7 +106,8 @@ body {
 	right: 0;
 }
 
-.how-we-met {
+.how-we-met,
+.wedding-information {
 	background: transparent;
 	color: $green-lt;
 	.bg-color {
@@ -111,6 +118,7 @@ body {
 		border: 3px solid $green-lt;
 	}
 }
+
 
 .our-adventures {
 	background: transparent;
@@ -239,5 +247,60 @@ body {
 		h2 {
 			margin-bottom: 40px;
 		}
+	}	
+}
+
+.field-type-link {
+	position: relative;
+	z-index: 1;
+	margin: 5px 0;
+	a {
+		display: block;
+		background: rgba($orange, 0.8);
+		text-align: center;
+		padding: 10px;
+		color: $plum;
+		font-size: 28px;
+		font-weight: 600;
+		border-radius: 3px;
 	}
+}
+
+.rsvp-button {
+	position: fixed;
+	bottom: 0;
+	right: 20px;	
+	z-index: 2;	
+	font-weight: bold;
+	a {
+		color: $plum;	
+		background: rgba($orange, 0.8);
+		padding: 9px 20px 5px;
+		display: inline-block;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
+	}
+}
+
+.button {
+	color: $green;	
+	font-weight: bold;
+	background: rgba($green-lt, 0.8);
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 3px;	
+	font-size: 18px;		
+	transition: all .3s ease-in-out;
+	&:hover {
+		background: rgba($green-lt, 0.8);
+		color: $green;	
+	}
+}
+
+.wedding-information {
+	background: $green;	
+	.field-type-image, .field-name-field-body-text {
+		background: $green;	
+		border: 3px solid $green-lt;
+	}	
 }

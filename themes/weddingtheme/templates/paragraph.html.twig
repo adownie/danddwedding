@@ -45,9 +45,13 @@ view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
 %}
 <div{{ attributes.addClass(classes) }}>
 <div class="row">
-	<div class="columns medium-8 medium-offset-2">
-    {{ content }}
+	<div class="columns small-12">
+		<div class="row">
+			<div class="columns medium-8 medium-offset-2">    
+    		{{ content.field_body_text }}
+			</div>
+		</div>
+
 	</div>
-</div>
-    <div class="leaves-1"></div>
+  <div class="leaves-1"></div>
 </div>
