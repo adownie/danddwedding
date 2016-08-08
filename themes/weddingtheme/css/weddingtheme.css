@@ -4137,6 +4137,9 @@ body {
       @media screen and (min-width: 64em) {
         .title-page .field-name-field-body-text h1 {
           font-size: 56px; } }
+      @media screen and (min-width: 90em) {
+        .title-page .field-name-field-body-text h1 {
+          font-size: 86px; } }
     .title-page .field-name-field-body-text h2 {
       font-size: 21px;
       letter-spacing: 2px;
@@ -4146,6 +4149,9 @@ body {
         width: 200px;
         height: 20px;
         background: url("../images/graphic-left.png") no-repeat; }
+      @media screen and (min-width: 90em) {
+        .title-page .field-name-field-body-text h2 {
+          font-size: 32px; } }
 
 .ampersand {
   height: 65px;

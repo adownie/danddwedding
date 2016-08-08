@@ -38,6 +38,9 @@ body {
 			@media #{$large-up} {
 				font-size: 56px;	
 			}
+			@media #{$xxlarge-up} {
+				font-size: 86px;
+			}
 		}
 		h2 {
 			font-size: 21px;
@@ -48,7 +51,9 @@ body {
 				width: 200px;
 				height: 20px;
 				background: url('../images/graphic-left.png') no-repeat;
-
+			}
+			@media #{$xxlarge-up} {
+				font-size: 32px;
 			}
 		}
 	}
