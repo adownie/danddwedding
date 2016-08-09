@@ -4078,9 +4078,7 @@ table.hover tr:nth-of-type(even):hover {
   font-weight: normal;
   font-style: normal; }
 
-[class^="icon-"], [class*=" icon-"], .icomoon, .title-page .field-name-field-body-text h2:before, .title-page .field-name-field-body-text h2:after, .how-we-met h2:before, .how-we-met h2:after,
-.wedding-information h2:before,
-.wedding-information h2:after {
+[class^="icon-"], [class*=" icon-"], .icomoon, .title-page .field-name-field-body-text h2:before, .title-page .field-name-field-body-text h2:after, h2:before, h2:after, .wedding-information h2:before, .wedding-information h2:after {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -4093,12 +4091,10 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-.icon-header-left:before, .title-page .field-name-field-body-text h2:before, .how-we-met h2:before,
-.wedding-information h2:before {
+.icon-header-left:before, .title-page .field-name-field-body-text h2:before, h2:before {
   content: "\e900"; }
 
-.icon-header-right:after, .title-page .field-name-field-body-text h2:after, .how-we-met h2:after,
-.wedding-information h2:after {
+.icon-header-right:after, .title-page .field-name-field-body-text h2:after, h2:after {
   content: "\e901"; }
 
 h1, h2, h3,
@@ -4184,7 +4180,7 @@ body {
         margin: 0px 10px;
         position: relative;
         top: -3px; }
-        @media screen and (min-width: 40em) {
+        @media screen and (min-width: 64em) {
           .title-page .field-name-field-body-text h2:before, .title-page .field-name-field-body-text h2:after {
             display: inline-block; } }
       @media screen and (min-width: 90em) {
@@ -4237,23 +4233,18 @@ body {
     border: 3px solid #8e953b;
     margin-bottom: 15px; }
 
-.how-we-met h2:before, .how-we-met h2:after,
-.wedding-information h2:before,
-.wedding-information h2:after {
+h2:before, h2:after {
   font-size: 6px;
   display: none;
   margin: 0px 10px;
   position: relative;
   top: -6px; }
-  @media screen and (min-width: 40em) {
-    .how-we-met h2:before, .how-we-met h2:after,
-    .wedding-information h2:before,
-    .wedding-information h2:after {
+  @media screen and (min-width: 64em) {
+    h2:before, h2:after {
       display: inline-block; } }
 
 .wedding-information h2:before, .wedding-information h2:after {
   font-size: 8px;
-  display: inline-block;
   margin: 0px 15px;
   top: -9px; }
 
@@ -4413,3 +4404,6 @@ body {
 .section-title {
   font-size: 42px;
   margin-bottom: 30px; }
+
+.feed-icon {
+  display: none; }

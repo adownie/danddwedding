@@ -61,7 +61,7 @@ body {
     		margin: 0px 10px;
     		position: relative;
     		top: -3px;			
-    		@media #{$medium-up} {
+    		@media #{$large-up} {
     			display: inline-block;	
     		}	
 			}
@@ -127,31 +127,46 @@ body {
 	}
 }
 
-.how-we-met,
-.wedding-information {
-	h2 {
-		@extend .icon-header-left;
-		@extend .icon-header-right;	
-		&:before, &:after {
-			@extend .icomoon;
-			font-size: 6px;
-			display: none;				
-  		margin: 0px 10px;
-  		position: relative;
- 			top: -6px;		
-    	@media #{$medium-up} {
-   			display: inline-block;	
-    	}	 					
-		}
+h2 {
+	@extend .icon-header-left;
+	@extend .icon-header-right;	
+	&:before, &:after {
+		@extend .icomoon;
+		font-size: 6px;
+		display: none;				
+ 		margin: 0px 10px;
+ 		position: relative;
+ 		top: -6px;		
+   	@media #{$large-up} {
+  			display: inline-block;	
+   	}	 					
 	}
 }
+
+// .how-we-met,
+// .wedding-information {
+// 	h2 {
+// 		@extend .icon-header-left;
+// 		@extend .icon-header-right;	
+// 		&:before, &:after {
+// 			@extend .icomoon;
+// 			font-size: 6px;
+// 			display: none;				
+//   		margin: 0px 10px;
+//   		position: relative;
+//  			top: -6px;		
+//     	@media #{$medium-up} {
+//    			display: inline-block;	
+//     	}	 					
+// 		}
+// 	}
+// }
 
 .wedding-information {
 	h2 {
 		&:before, &:after {
 			@extend .icomoon;
-			font-size: 8px;
-			display: inline-block;				
+			font-size: 8px;			
   		margin: 0px 15px;  		
  			top: -9px;		
 		}		
@@ -354,3 +369,6 @@ body {
 	margin-bottom: 30px;
 }
 
+.feed-icon {
+	display: none;
+}
