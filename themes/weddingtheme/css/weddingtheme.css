@@ -4305,16 +4305,18 @@ body {
 .field-type-link {
   position: relative;
   z-index: 1;
-  margin: 5px 0; }
+  margin: 10px 0; }
   .field-type-link a {
     display: block;
-    background: rgba(193, 65, 23, 0.8);
+    background: rgba(142, 149, 59, 0.8);
     text-align: center;
     padding: 10px;
-    color: #2b1d2c;
-    font-size: 28px;
+    color: #282a19;
+    font-size: 36px;
     font-weight: 600;
-    border-radius: 3px; }
+    border-radius: 3px;
+    font-family: "bodonixtregular", serif;
+    letter-spacing: 5px; }
 
 .rsvp-button {
   position: fixed;
@@ -4348,3 +4350,10 @@ body {
   .wedding-information .field-type-image, .wedding-information .field-name-field-body-text {
     background: #282a19;
     border: 3px solid #8e953b; }
+  .wedding-information h3 {
+    margin-bottom: 0;
+    line-height: 1.2; }
+
+.section-title {
+  font-size: 42px;
+  margin-bottom: 30px; }
