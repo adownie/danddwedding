@@ -52,11 +52,18 @@ body {
 			font-size: 21px;
 			letter-spacing: 2px;
 			font-family: $serif-font;
+			@extend .icon-header-left;
+			@extend .icon-header-right;					
 			&:before, &:after {
-				content: '';
-				width: 200px;
-				height: 20px;
-				background: url('../images/graphic-left.png') no-repeat;
+				@extend .icomoon;
+				font-size: 6px;
+				display: none;
+    		margin: 0px 10px;
+    		position: relative;
+    		top: -3px;			
+    		@media #{$medium-up} {
+    			display: inline-block;	
+    		}	
 			}
 			@media #{$xxlarge-up} {
 				font-size: 32px;
@@ -116,10 +123,40 @@ body {
 	.field-type-image, .field-name-field-body-text {
 		background: $green;	
 		border: 3px solid $green-lt;
+		margin-bottom: 15px;
 	}
 }
 
+.how-we-met,
+.wedding-information {
+	h2 {
+		@extend .icon-header-left;
+		@extend .icon-header-right;	
+		&:before, &:after {
+			@extend .icomoon;
+			font-size: 6px;
+			display: none;				
+  		margin: 0px 10px;
+  		position: relative;
+ 			top: -6px;		
+    	@media #{$medium-up} {
+   			display: inline-block;	
+    	}	 					
+		}
+	}
+}
 
+.wedding-information {
+	h2 {
+		&:before, &:after {
+			@extend .icomoon;
+			font-size: 8px;
+			display: inline-block;				
+  		margin: 0px 15px;  		
+ 			top: -9px;		
+		}		
+	}
+}
 .our-adventures {
 	background: transparent;
 	.bg-color {
@@ -128,6 +165,7 @@ body {
 	.field-type-image {
 		border: 3px solid $orange-lt;
 		border-radius: 3px;
+		margin-bottom: 15px;
 	}
 }
 
