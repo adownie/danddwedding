@@ -4281,10 +4281,10 @@ h2:before, h2:after {
   background: #c14117 !important; }
 
 .leaves-1 {
-  background: url("../images/leaves-full.svg") no-repeat;
+  background: url("../images/leaves-full-retina.svg") no-repeat;
   position: absolute;
   height: 1800px;
-  width: 1000px;
+  width: 1300px;
   background-size: 100%;
   z-index: 0;
   top: 0;
@@ -4352,7 +4352,9 @@ h2:before, h2:after {
 .paragraph--type--general-content .field-wrapper {
   border: 3px solid #c14117;
   border-radius: 3px;
-  padding: 40px; }
+  padding: 40px;
+  position: relative;
+  z-index: 1; }
   .paragraph--type--general-content .field-wrapper h2 {
     margin-bottom: 40px; }
 
@@ -4414,3 +4416,22 @@ h2:before, h2:after {
 
 .feed-icon {
   display: none; }
+
+.leaves-bottom {
+  display: none;
+  background: url("../images/leaves-bottom.svg") no-repeat;
+  position: absolute;
+  height: 300px;
+  width: 100%;
+  background-position: 50%;
+  background-size: 100%;
+  z-index: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+  left: 0; }
+
+.wedding-information {
+  position: relative; }
+  .wedding-information .leaves-bottom {
+    display: block; }
