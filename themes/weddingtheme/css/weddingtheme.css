@@ -4179,7 +4179,7 @@ body {
         display: none;
         margin: 0px 10px;
         position: relative;
-        top: -3px; }
+        top: -5px; }
         @media screen and (min-width: 64em) {
           .title-page .field-name-field-body-text h2:before, .title-page .field-name-field-body-text h2:after {
             display: inline-block; } }
@@ -4238,7 +4238,7 @@ h2:before, h2:after {
   display: none;
   margin: 0px 10px;
   position: relative;
-  top: -6px; }
+  top: -7px; }
   @media screen and (min-width: 64em) {
     h2:before, h2:after {
       display: inline-block; } }
@@ -4256,6 +4256,13 @@ h2:before, h2:after {
     border: 3px solid #c54e27;
     border-radius: 3px;
     margin-bottom: 15px; }
+  @media screen and (min-width: 40em) {
+    .our-adventures .medium-4:first-child {
+      margin-top: 20px; }
+    .our-adventures .medium-4:nth-child(2) {
+      margin-top: 60px; }
+    .our-adventures .medium-4:last-child {
+      margin-top: -20px; } }
 
 .proposal {
   background: transparent;

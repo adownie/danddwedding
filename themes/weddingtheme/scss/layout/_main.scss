@@ -60,7 +60,7 @@ body {
 				display: none;
     		margin: 0px 10px;
     		position: relative;
-    		top: -3px;			
+    		top: -5px;			
     		@media #{$large-up} {
     			display: inline-block;	
     		}	
@@ -136,7 +136,7 @@ h2 {
 		display: none;				
  		margin: 0px 10px;
  		position: relative;
- 		top: -6px;		
+ 		top: -7px;		
    	@media #{$large-up} {
   			display: inline-block;	
    	}	 					
@@ -181,6 +181,19 @@ h2 {
 		border: 3px solid $orange-lt;
 		border-radius: 3px;
 		margin-bottom: 15px;
+	}
+	.medium-4 {
+		@media #{$medium-up} {
+			&:first-child {
+				margin-top: 20px;			
+			}
+			&:nth-child(2) {
+				margin-top: 60px;
+			}
+			&:last-child {
+				margin-top: -20px;
+			}
+		}
 	}
 }
 
