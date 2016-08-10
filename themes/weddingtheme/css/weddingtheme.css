@@ -4430,6 +4430,9 @@ h2:before, h2:after {
   -ms-transform: translateY(-50%);
       transform: translateY(-50%);
   left: 0; }
+  @media screen and (min-width: 90em) {
+    .leaves-bottom {
+      height: 360px; } }
 
 .wedding-information {
   position: relative; }

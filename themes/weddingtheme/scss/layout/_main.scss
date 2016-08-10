@@ -400,6 +400,9 @@ h2 {
 	top: 50%;
 	transform: translateY(-50%);
 	left: 0;	
+	@media #{$xxlarge-up} {
+		height: 360px;
+	}
 }
 .wedding-information {
 	position: relative;
