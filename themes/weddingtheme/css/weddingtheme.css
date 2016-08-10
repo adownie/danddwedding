@@ -4426,13 +4426,11 @@ h2:before, h2:after {
   background-position: 50%;
   background-size: 100%;
   z-index: 0;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
+  bottom: -120px;
   left: 0; }
   @media screen and (min-width: 90em) {
     .leaves-bottom {
-      height: 360px; } }
+      height: 470px; } }
 
 .wedding-information {
   position: relative; }
